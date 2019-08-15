@@ -1,0 +1,40 @@
+html , body {
+	margin: 0;
+	padding: 10px;
+	font-family: arial;
+}
+
+header {
+	background: #f0f0f0;
+	padding: 20px 0px;
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+section {
+	float: left;
+	width: 80%;
+	background: #ccc;
+}
+
+aside {
+	float: left;
+	width: 20%;
+	background: #abc;	
+}
+
+aside section {
+	float: left;
+	width: 100%;
+	background: none;
+}
+
+footer {
+	clear: both;
+	float: left;
+	width: 100%;
+	background: #f0f0f0;
+	padding: 20px 0px;
+	text-align: center;	
+}
